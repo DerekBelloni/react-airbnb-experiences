@@ -5,3 +5,8 @@
 body {
   margin: 0;
 }
+
+.navbar-img {
+  height: 40px;
+  width: 50px;
+}
