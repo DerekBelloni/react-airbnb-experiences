@@ -4,7 +4,7 @@ import airLogo from '../images/airbnb-logo.png'
 const Navbar = () => {
   return (
     <nav className="navbar-img">
-      <img className="nav--logo" src={airLogo} alt="" />
+      <img src={airLogo} alt="" />
     </nav>
   )
 }
