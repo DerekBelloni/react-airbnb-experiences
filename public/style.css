@@ -1,0 +1,42 @@
+* {
+  box-sizing: border-box;
+}
+
+body {
+  margin: 0;
+}
+
+.navbar-img {
+  display: flex;
+  height: 70px;
+  padding: 20px 36px;
+  box-shadow: 0px 2.98256px 7.4564px rgba(0, 0, 0, 0.1);
+}
+
+.nav--logo {
+  max-width: 100px;
+}
+
+.font {
+  font-family: 'Inter', sans-serif;
+  font-family: 'Poppins', sans-serif;
+}
+
+.hero--main {
+  padding-left: 25px;
+  font-size: 35px;
+  margin-bottom: 5px;
+
+}
+
+.hero--img {
+  display: flex;
+  align-items: center;
+  padding: 10px 25px;
+  height: 500px;
+  margin: auto;
+}
+
+.hero--p {
+  width: 700px;
+}
