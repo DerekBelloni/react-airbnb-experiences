@@ -1,5 +1,4 @@
 import React from 'react';
-import swimmerImg from '../images/swimmer.png';
 import star from '../images/red-star.png';
 
 const Card = (props) => {
@@ -9,8 +8,8 @@ const Card = (props) => {
       <img className="card--img" src={props.img} alt="" />
       <div className="card--stats">
         <img className="card--star" src={star} alt="" />
-        <span>{props.rating} </span>
-        <span className="grey">{props.reviewCount} - </span>
+        <span> {props.rating} </span>
+        <span className="grey">({props.reviewCount}) - </span>
         <span className="grey">{props.country}</span>
       </div>
       <p>{props.title}</p>

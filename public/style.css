@@ -77,3 +77,10 @@ section {
   display: flex;
   align-items: center;
 }
+
+.cards-list {
+  display: flex;
+  flex-wrap: nowrap;
+  gap: 20px;
+  overflow-x: auto;
+}
