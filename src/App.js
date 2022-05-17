@@ -10,13 +10,7 @@ const App = () => {
   const cardData = Data.map((data) => {
     return <Card
       key={data.id}
-      img={data.coverImg}
-      rating={data.stats.rating}
-      reviewCount={data.stats.reviewCount}
-      country={data.location}
-      title={data.title}
-      price={data.price}
-      openSpots={data.openSpots}
+      data={data}
     />
   })
   return (
@@ -29,6 +23,7 @@ const App = () => {
     </>
   )
 }
+
 
 
 export default App;
