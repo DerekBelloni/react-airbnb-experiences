@@ -57,7 +57,12 @@ section {
   margin-left: 20px;
   margin-top: 2px;
   margin-bottom: 2px;
+  flex: 0 0 auto;
+  display: flex;
+  flex-direction: column;
 }
+
+
 
 
 .card--img {
